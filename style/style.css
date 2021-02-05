@@ -281,62 +281,63 @@ footer{
     background-image: url(/assets/twitter.png);
 }
 
-@media (max-width: 510px){
 
-      /*--------  RESET   -------------*/
-    
-    
 
-      section{
+
+
+
+@media (max-width: 1000px){
+
+
+            /*--------  RESET   -------------*/
+
+    section{
         margin-right: 0px;
         margin-left: 0px;
         display: block;
-        /*display: inline-block; */
+              /*display: inline-block; */
     }
-
+      
     .section_2{
         display: block;
-        /*display: inline-block;*/
         margin-right: 0px;
         margin-left: 0px;
     }
-
+      
     .section_3{
         display: block;
         margin-right: 0px;
         margin-left: 0px;
-        /*display: inline-block;*/
     }
-
+      
     .ligar{
         margin-left: 0px;
         margin-right: 0px;
     }
-
+      
     footer{
         display: block;
         margin-right: 0px;
-        margin-left: 0px;
-        /*display: inline-block;*/ 
+        margin-left: 0px; 
         height: 900px;
         width: 100%;
     }
-
-    /*--------------------*/
-
-
+      
+          /*--------------------*/
+      
+      
     header{
         display:inline; 
         margin-left: 0px; 
         margin-right: 0px; 
     }
-       
+             
     .logo{
         width: 100%;
         display: flex;
         justify-content: center;
     }
-    
+          
     .menu{
         width: 100%;
         display: block;
@@ -346,97 +347,107 @@ footer{
         margin-bottom: 50px;
         text-align: center;
     }
-    
+          
     .resp1 a {
         text-align: center;
         text-decoration: none;
-        
+              
     }
-
+      
     .resp2{
         text-align: center;  
         margin-bottom: 50px;      
     }
-    
+          
     .video_call{
         width: 100%;
         text-align: center; 
     } 
-
+      
     section{
         margin-bottom: 0px;
     }
-
+    .img_call{
+        margin-left: none;
+        text-align: center;
+    }
+      
     .section_2{
         width: 100%;
         margin-right: 0px;
         justify-content: center;
         align-items: center;
         text-align: center;
+        flex-direction: column;
     }
-
+      
     .section_2 .img_coding{
         width: 100%;
-        
-    }
-    
+              
+        }
+
+          
+          
     .section_2 .coding{
         width: 100%;
-    }
+          }
+      
+    .coding h2{
+        text-align: center;
+        margin-bottom: 50px;
+          }
 
     .coding{
-        
+              
         text-align: center;
-    }
-
+          }
+      
     .coding, .img_coding{
         width: 100%;
         margin-right: 0px;
-    }
+          }
     .img_coding{
         margin-right: 0px;
-    }
-
+          }
+      
     .coding{
-        
+              
         text-align: start;
-    }
-
+          }
+      
     .top_ {
         margin-right: 0px;
         height: 50%;
-    }
-
+          }
+      
     .ligar{
         width: 100%;
         text-align: center;
-    }
-
+          }
+      
     .input_ligar{
         margin-bottom: 20px;
-    }
-
+          }
+      
     .informacao{
         width: 90%;
         margin-left: 5%;
         margin-bottom: 20px;
-    }
-
+          }
+      
     .tamanho{
         width: 100%;
         margin-right: 8%;
         margin-left: 8%;
-        
-    }
-
+              
+          }
+      
     .tamanho_1{
-        margin-right: 0;
-        margin-left: 0;
-        text-align: center;
+    margin-right: 0;
+    margin-left: 0;
+    text-align: center;
     }
-
-
-
-}  
-
-        /*------------------------*/
+      
+      
+      
+}
