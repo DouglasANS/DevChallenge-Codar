@@ -3,7 +3,7 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body{
-    
+    margin: 0;
 }
 
 header{
@@ -14,7 +14,7 @@ header{
 }
 
 .logo{
-    width: 50%;
+    width: 20%;
     display: flex;
     color: #D6000D;
     font-size: 30px;
@@ -25,9 +25,10 @@ header{
 }
 
 .menu{
-    width: 50%;
+    width: 80%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+
     align-items:center;
     font-size: 30px;  
 }
@@ -39,6 +40,7 @@ header{
 .menu a {
     text-decoration: none;
     color: rgb(0, 0, 0); 
+    margin-right: 20px;
 }
 
 .menu button{
@@ -61,18 +63,18 @@ section{
 
 .img_call{  
     align-self: center;
-    margin-left: 10%;
-    margin-right: 50px;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+img{
+    width: 400px;
+    height: 400px;
 }
 
 .video_call{
     height: 317px;
     width: 50%;
-}
-
-img{
-    width: 80%;
-    height: 80%;
 }
 
 .video_call h2{
@@ -117,8 +119,9 @@ img{
 }
 
 .img_coding img{
-    width: 100%;
-    height: 100%;
+    align-self: center;
+    width: 400px;
+    height: 400px;
 }
 
 .coding h2{
@@ -157,15 +160,15 @@ img{
 
 .section_3{
     display: flex;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 6%;
+    margin-right: 6%;
     margin-top: 250px;
     
 }
 
 .informacao{
     border-radius: 15px;
-    margin-right: 60px;
+    margin-right: 20px;
     display: flex;
     width: 50%;
     background-color: rgb(226, 226, 226);
@@ -184,6 +187,7 @@ img{
     height: 50%;
 }
 .top_ h2{
+    font-size: 18px;
     font-weight: normal;
 }
 
@@ -213,6 +217,7 @@ img{
 footer{
     margin-top: 150px;
     height: 400px;
+    width: 100%;
     display: flex;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -220,8 +225,8 @@ footer{
 
 .tamanho{
     width: 25%;
-    margin-left: 70px;
-    margin-right: 70px;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-top: 30px;
 }
 
@@ -276,6 +281,162 @@ footer{
     background-image: url(/assets/twitter.png);
 }
 
+@media (max-width: 510px){
+
+      /*--------  RESET   -------------*/
+    
+    
+
+      section{
+        margin-right: 0px;
+        margin-left: 0px;
+        display: block;
+        /*display: inline-block; */
+    }
+
+    .section_2{
+        display: block;
+        /*display: inline-block;*/
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .section_3{
+        display: block;
+        margin-right: 0px;
+        margin-left: 0px;
+        /*display: inline-block;*/
+    }
+
+    .ligar{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    footer{
+        display: block;
+        margin-right: 0px;
+        margin-left: 0px;
+        /*display: inline-block;*/ 
+        height: 900px;
+        width: 100%;
+    }
+
+    /*--------------------*/
+
+
+    header{
+        display:inline; 
+        margin-left: 0px; 
+        margin-right: 0px; 
+    }
+       
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menu{
+        width: 100%;
+        display: block;
+        font-size: 30px;  
+    }
+    .resp1{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    
+    .resp1 a {
+        text-align: center;
+        text-decoration: none;
+        
+    }
+
+    .resp2{
+        text-align: center;  
+        margin-bottom: 50px;      
+    }
+    
+    .video_call{
+        width: 100%;
+        text-align: center; 
+    } 
+
+    section{
+        margin-bottom: 0px;
+    }
+
+    .section_2{
+        width: 100%;
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section_2 .img_coding{
+        width: 100%;
+        
+    }
+    
+    .section_2 .coding{
+        width: 100%;
+    }
+
+    .coding{
+        
+        text-align: center;
+    }
+
+    .coding, .img_coding{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .img_coding{
+        margin-right: 0px;
+    }
+
+    .coding{
+        
+        text-align: start;
+    }
+
+    .top_ {
+        margin-right: 0px;
+        height: 50%;
+    }
+
+    .ligar{
+        width: 100%;
+        text-align: center;
+    }
+
+    .input_ligar{
+        margin-bottom: 20px;
+    }
+
+    .informacao{
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+
+    .tamanho{
+        width: 100%;
+        margin-right: 8%;
+        margin-left: 8%;
+        
+    }
+
+    .tamanho_1{
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
 
 
 
+}  
+
+        /*------------------------*/
