@@ -1,0 +1,281 @@
+*{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    
+}
+
+header{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 130px;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    color: #D6000D;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600px;
+    
+    
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: 30px;  
+}
+
+.ponto{  
+    color: rgb(0, 0, 0);
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+}
+
+.menu button{
+    color: rgb(255, 255, 255);
+    background-color: #D6000D;
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.img_call{  
+    align-self: center;
+    margin-left: 10%;
+    margin-right: 50px;
+}
+
+.video_call{
+    height: 317px;
+    width: 50%;
+}
+
+img{
+    width: 80%;
+    height: 80%;
+}
+
+.video_call h2{
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.video_call h1{
+    margin-top: 0px;
+    color: #D6000D;
+    font-size: 50px;
+}
+
+.video_call button{
+    color: rgb(255, 255, 255);
+    background-color: #D6000D;
+    border-radius: 15px;
+    border: none;
+    width: 300px;
+    height: 45px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*-------------------------*/
+
+.section_2{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.section_2 .img_coding{
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.section_2 .coding{
+    width: 50%;
+}
+
+.img_coding img{
+    width: 100%;
+    height: 100%;
+}
+
+.coding h2{
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+.ligar{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.input_ligar{
+    border-radius: 15px;
+    border: none;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(212, 212, 212);
+    padding-left: 20px;
+}
+
+.btt_ligar{
+    color: rgb(255, 255, 255);
+    background-color: #D6000D;
+    border-radius: 15px;
+    border: none;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*----------------------------------*/
+
+.section_3{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 250px;
+    
+}
+
+.informacao{
+    border-radius: 15px;
+    margin-right: 60px;
+    display: flex;
+    width: 50%;
+    background-color: rgb(226, 226, 226);
+}
+
+.red{
+    width: 25%;
+    height: 200px; 
+}
+
+/*font-weight: normal;
+    font-weight: bolder;*/
+
+.top_ {
+    margin-right: 10px;
+    height: 50%;
+}
+.top_ h2{
+    font-weight: normal;
+}
+
+.bottom_{
+    height: 50%;
+}
+.bottom_ h3{
+    margin-bottom: 0px;
+}
+
+.bottom_ h4{
+    margin-top: 0px;
+}
+
+.fundo_red{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+    background-color:#D6000D;
+    border-radius: 50%;
+    
+}
+
+footer{
+    margin-top: 150px;
+    height: 400px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.tamanho{
+    width: 25%;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+.tamanho h1{
+    font-size: 60px;
+    font-style: italic;
+    font-weight: normal;
+    
+}
+.tamanho h2{
+    font-weight: normal;
+    font-size: 35px;
+    margin-top: 70px;
+    
+}
+.tamanho h3{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.social{
+    display: flex;
+}
+.social img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-bottom-left-radius: 50px;
+    
+}
+
+.social button{
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+}
+
+.face{
+    background-image: url(/assets/face.png);
+}
+
+.insta{
+    background-image: url(/assets/inst.png);
+}
+.twitter{
+    background-image: url(/assets/twitter.png);
+}
+
+
+
+
